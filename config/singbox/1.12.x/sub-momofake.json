@@ -14,7 +14,7 @@
       {"rule_set": "geosite-fakeipfilter", "server": "local"},
       {"query_type": ["A", "AAAA"], "server": "fakeip", "rewrite_ttl": 1},
       {"rule_set": "geosite-cn", "server": "local"},
-      {"domain": ["bestvmr.com"], "server": "bestvmr-dns"},
+      {"domain": ["bestvmr.com"], "server": "bestvmr-dns"}
     ],
     "final": "foreign",
     "client_subnet": "223.5.5.0/24",
